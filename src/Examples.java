@@ -59,7 +59,7 @@ public class Examples {
 
         System.out.println("---------- split ----------");
         text = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.";
-        String[] words = text.split("");
+        String[] words = text.split(" ");
         System.out.println("Number of words: "+words.length);
 
         System.out.println("---------- trim i strip ----------");
